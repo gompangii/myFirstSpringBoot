@@ -18,4 +18,9 @@ public class Test1Application {
 	public String getMethodName() {
 		return "Hello Spring boot...";
 	}
+
+	@GetMapping("/test")
+	public String getTest() {
+		return "Test...";
+	}
 }
