@@ -23,4 +23,10 @@ public class Test1Application {
 	public String getTest() {
 		return "Test...";
 	}
+
+	@GetMapping("/pipeline")
+	public String getTest() {
+		return "Jenkins Pipeline...";
+	}
+
 }
